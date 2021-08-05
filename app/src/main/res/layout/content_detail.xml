@@ -32,7 +32,7 @@
             android:layout_marginBottom="20dp"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:text="Ratings" />
+            android:text="@string/ratings" />
 
         <TextView
             android:id="@+id/tv_detail_rating"

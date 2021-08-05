@@ -26,6 +26,8 @@ buildscript {
 
     ext.koin_version = "2.1.6"
 
+    ext.leakcanary_android = '2.7'
+
     repositories {
         google()
         jcenter()
@@ -44,7 +46,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
     }
 }
 
