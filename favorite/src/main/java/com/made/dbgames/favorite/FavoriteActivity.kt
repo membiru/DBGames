@@ -38,7 +38,7 @@ class FavoriteActivity : AppCompatActivity() {
 
         favoriteViewModel.favoriteGame.observe(this, {data ->
             gamesAdapter.setData(data)
-            binding.viewEmpty.visibility = if (data.isNotEmpty()) View.GONE else View.VISIBLE
+            binding.viewEmpty.root.visibility = if (data.isNotEmpty()) View.GONE else View.VISIBLE
         })
 
         with(binding.rvGame) {
